@@ -1,0 +1,337 @@
+body{
+margin:0;
+padding: 0;
+font-family: 'Arial',serif;
+
+}
+
+.nav{
+  background-color: #ffffff;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 0 0;
+
+}
+.nav1{
+  background-color: #000000;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 30px 0;
+
+}
+.nav1 > li{
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 12px;
+}
+
+.nav1 > li >a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #fdba21;
+  transition: .5 ease;
+}
+
+.nav1>li>a:hover{
+  color: #552084;
+}
+
+.nav > li{
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 12px;
+}
+
+.nav > li >a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #552084;
+  transition: .5 ease;
+}
+
+.nav>li>a:hover{
+  color: #fdba21;
+}
+
+.logo{
+  color: #fdba21;
+  float:left;
+  padding-left: 25px;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Heroes Assemble Regular";
+}
+.logo span{
+  font-weight: 1000;
+  color: #552084;
+}
+
+
+.logo>a{
+  text-decoration: none;
+  color: #fdba21;
+}
+
+.banner{
+width: 100%;
+display:block;
+height:350px;
+
+
+}
+.banner > .banner-image {
+width: 100%;
+display:block;
+height:350px;
+object-fit: cover;
+
+}
+
+.service1{
+  width: 298px;
+  height: 400px;
+  border: 1px solid #c1c1c1;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float: left;
+}
+
+.service1 > p{
+  font-size: 14px;
+  color: #636363;
+  max-width: 250px;
+  margin: 20px;
+
+}
+
+.services{
+  width: 1655px;
+  margin: 0 auto;
+  background-image: url('https://www.nba.com/lakers/sites/lakers/files/historybg.jpg');
+}
+
+.services1{
+  width: 1855px;
+  margin: 0 auto;
+}
+
+
+h1{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #c1c1c1;
+  color: #fcf4a3;
+  padding: 10px 0;
+  margin: 0 -6px;
+}
+
+.image{
+  max-width: 280px;
+  margin: 15px 0 0 0;
+}
+.image1{
+  margin: 80px 0 80px 0;
+  margin-top:80px;
+  /* HOVER OFF */
+   -webkit-transition: padding .5s;
+}
+.image2{
+  max-width: 280px;
+  margin: 15px 0 0 0;
+  margin-top: 75px;
+  align: left;
+}
+
+.image1:hover{
+  opacity: .7;
+  padding: 20px;
+  margin-top: 80px;
+  transition: .5s ease;
+}
+.heading{
+  text-align: center;
+  font-size: 30px;
+  color: #552084;
+  font-family: "Impact Regular";
+  margin: 60px 0 50px 0;
+
+}
+
+.image:hover{
+  opacity: .7;
+  max-width: 280px;
+
+  margin-top: 15px;
+  transition: .5s ease;
+}
+
+.service2{
+  width: 700px;
+  height: 600px;
+  margin: 20px 100px;
+  padding: 0 5px;
+  float: left;
+}
+.service2 span{
+  font-weight: 4500;
+  color: 	#624185;
+}
+
+.service2 > p{
+  margin: 40px;
+  margin-left:180px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #000000;
+  color: #ffa345;
+  padding: 10px 0;
+  margin: 10 -6px;
+}
+
+
+
+
+.button {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #fdba21;
+  transition-duration: 0.5s;
+  margin:auto;
+  font-weight: 700;
+  font-family: "Arial";
+}
+
+.button:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+
+.container1 {
+  height: 50px;
+  position: relative;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.container2 {
+  margin-top: 100px;
+  height: 300px;
+  margin: 70px auto 0;
+  position: relative;
+}
+
+.container3 {
+  margin-top: 100px;
+  height: 50px;
+  margin: 270px auto 0;
+  position: relative;
+}
+
+select{
+  width:50%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+select:focus{
+  outline: none;
+}
+
+#text1{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000000;
+  transition: .5s;
+}
+#text2{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000000;
+  transition: .5s;
+}#text0{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000000;
+  transition: .5s;
+}#text3{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000000;
+  transition: .5s;
+}#text4{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #000000;
+  transition: .5s;
+}
+#text5{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #000000;
+  transition: .5s;
+}
+#text6{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  color: #000000;
+  transition: .5s;
+}
+.row::after{
+  content:'';
+  display: table;
+  clear:both;
+}
+.column{
+  width: calc(100%/2);
+  float: left;
+  text-align: center;
+}
+
+.column p{
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+#predictContainer {
+  width: 75%;
+  padding: 10px;
+  margin: 30px auto;
+  text-align: center;
+  height: 100px;
+}
+
+#canvas{
+  opacity: .8;
+  background-color: transparent;
+  height: 700px;
+}

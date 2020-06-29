@@ -1,0 +1,116 @@
+<DOCTYPE html>
+<html lang="on">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet"  href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-size=1,0">
+    <title>History | Los Angeles Lakers</title>
+  </head>
+  <body>
+    <ul class="nav">
+      <div class="logo">
+        <a href="lakershistory.html">Lakers<span>History</span></a>
+      </div>
+      <li><a href="lakershistory.html">Home</a></li>
+      <li><a href="retired-jerseys.html#kobe">Kobe Bryant</a></li>
+      <li><a href="retired-jerseys.html#magic">Magic Johnson</a></li>
+      <li><a href="retired-jerseys.html#kareem">Kareem Abdul-Jabbar</a></li>
+      <li><a href="retired-jerseys.html#shaq">Shaquille O'Neal</a></li>
+      <li><a href="retired-jerseys.html#wilt">Wilt Chamberlain</a></li>
+    </ul>
+    <div class="banner">
+      <img class="banner-image" src="https://images8.alphacoders.com/971/971316.jpg">
+    </div>
+    <div class="heading">Los Angeles Lakers Legends</div>
+      <div align="center" class="services">
+        <div class="service1">
+          <h1>Kobe Bryant</h1>
+            <a href="retired-jerseys.html#kobe"><img class="image" src="https://publish.nba.com/lakers/sites/lakers/files/homepage-alumni-kobe_0.jpg"></a>
+              <p>5 NBA Championships</p>
+              <p>6 Games of 60+ Points</p>
+              <p>18x All-Star</p>
+        </div>
+        <div class="service1">
+          <h1>Magic Johnson</h1>
+            <a href="retired-jerseys.html#magic"><img class="image" src="https://www.nba.com/lakers/sites/lakers/files/magic_johnson.jpg"></a>
+              <p>50 Greatest Players in NBA History</p>
+              <p>Naismith Memorial Basketball Hall of Fame</p>
+              <p>5 NBA Championships</p>
+        </div>
+        <div class="service1">
+          <h1>Kareem Abdul-Jabbar</h1>
+            <a href="retired-jerseys.html#kareem"><img class="image" src="https://publish.nba.com/lakers/sites/lakers/files/kaj_history.jpg"></a>
+              <p>50 Greatest Players in NBA History</p>
+              <p>Naismith Memorial Basketball Hall of Fame</p>
+              <p>6 NBA Championships</p>
+              <p>All-Time Total Points Made Leader</p>
+        </div>
+        <div class="service1">
+          <h1>Shaquille O'Neal</h1>
+            <a href="retired-jerseys.html#shaq"><img class="image" src="https://www.nba.com/lakers/sites/lakers/files/shaq_0.jpg"></a>
+              <p>50 Greatest Players in NBA History</p>
+              <p>4 NBA Championships</p>
+              <p>3 NBA Finals MVP</p>
+        </div>
+        <div class="service1">
+          <h1>Wilt Chamberlain</h1>
+            <a href="retired-jerseys.html#wilt"><img class="image" src="https://publish.nba.com/lakers/sites/lakers/files/homepage-alumni-chamberlain.jpg"></a>
+              <p>NBA Rookie of the Year</p>
+              <p>4x NBA MVP</p>
+              <p>13x All-Star</p>
+        </div>
+          <a href="retired-jerseys.html"><img class="image1" src="https://www.nba.com/lakers/sites/lakers/files/history-retired-numbers-updated2.jpg"></a>
+<div class="container1">
+  <div class="vertical-center">
+  </div>
+</div>
+
+          <button class="button">Random fact about NBA Legends</button>
+
+        <div class="container2" id="cnt">
+          <div class="column">
+            <p>Font Family</p>
+            <select id="option-font" onchange="change_font()">
+              <option>Select Font</option>
+              <option value="Roboto">Roboto</option>
+              <option value="Open Sans">Open Sans</option>
+              <option value="Baloo">Baloo</option>
+              <option value="Hack">Hack</option>
+              <option value="Raleway">Raleway</option>
+              <option value="Sofia Pro">Sofia Pro</option>
+            </select>
+          </div>
+          <div class ="column">
+            <p>Font Size</p>
+            <select id="option-size" onchange="size_font()">
+              <option>Select Font</option>
+              <option value="12">12</option>
+              <option value="16">16</option>
+              <option value="20">20</option>
+              <option value="24">24</option>
+              <option value="26">26</option>
+              <option value="30">30</option>
+            </select>
+          </div>
+        </div>
+
+        <div class='container3'>
+          <input type='text' placeholder="dd#mm#yyyy" id="date1">
+          <button type="button" onclick="birthday()">How old am I?</button>
+        </div>
+        <div class="countdown1">00 : 00 : 00 : 00 : 00</div>
+
+        <div id="predictContainer">
+          <p id="quote"></p>
+        </div>
+        <div id="predictContainer">
+        <div class="countdown">00 : 00 : 00 : 00</div>
+      </div>
+        <canvas id="canvas" width="700" height="300"></canvas>
+
+        <script src="main.js"></script>
+
+  </body>
+</html>
